@@ -16,7 +16,6 @@
       options.input
     ].join(' ');
 
-    console.log(clis);
     return new Promise(function(resolve, reject) {
       exec(clis, function(err) {
         if (err) return reject(err);

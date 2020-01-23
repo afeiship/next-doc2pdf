@@ -3,7 +3,7 @@
  * description: Covert doc/docx to pdf.
  * url: https://github.com/afeiship/next-doc2pdf
  * version: 1.0.0
- * date: 2020-01-23 17:08:51
+ * date: 2020-01-23 17:09:11
  * license: MIT
  */
 
@@ -25,7 +25,6 @@
       options.input
     ].join(' ');
 
-    console.log(clis);
     return new Promise(function(resolve, reject) {
       exec(clis, function(err) {
         if (err) return reject(err);
