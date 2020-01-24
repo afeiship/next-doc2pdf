@@ -17,6 +17,24 @@ nx.doc2pdf({
 })
 ```
 
+## doc2pdf + merge
+```js
+require("@feizheng/next-doc2pdf");
+require("@feizheng/next-pdf-merge");
+
+nx.doc2pdf({
+  input: "./files/*.doc",
+  output: `./pdfs`
+}).then(res => {
+  console.log("convert done!");
+  nx.pdfMerge({
+    input: "./pdfs/*.pdf"
+  });
+});
+
+```
+
+
 ## resources
 - https://github.com/unoconv/unoconv
 - http://macappstore.org/unoconv/
