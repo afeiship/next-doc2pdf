@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-doc2pdf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Covert doc/docx to pdf.",
   "homepage": "https://github.com/afeiship/next-doc2pdf",
   "author": {
