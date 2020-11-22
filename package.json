@@ -1,6 +1,6 @@
 {
-  "name": "@feizheng/next-doc2pdf",
-  "version": "1.0.2",
+  "name": "@jswork/next-doc2pdf",
+  "version": "1.0.0",
   "description": "Covert doc/docx to pdf.",
   "homepage": "https://github.com/afeiship/next-doc2pdf",
   "author": {
@@ -10,33 +10,31 @@
   "scripts": {
     "build": "gulp",
     "test": "jest",
-    "start": "node ./express.js"
+    "start": "node ./express.js",
+    "release": "release-it"
   },
-  "main": "dist/next-doc2pdf.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
-    "@feizheng/gulp-pkg-header": "^1.0.2",
-    "@feizheng/rake-git": "^1.2.1",
-    "del": "^5.1.0",
-    "express": "^4.17.1",
+    "@jswork/gulp-pkg-header": "^1.0.2",
+    "@jswork/next": "^1.0.2",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-debug": "^4.0.0",
     "gulp-header": "^2.0.9",
     "gulp-ignore": "^3.0.0",
-    "gulp-load-plugins": "^2.0.2",
+    "gulp-load-plugins": "^2.0.5",
     "gulp-rename": "^2.0.0",
     "gulp-size": "^3.0.0",
-    "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "jest": "^25.1.0",
-    "prettier": "^1.19.1",
-    "uglify-save-license": "^0.4.1",
-    "yargs": "^15.1.0"
-  },
-  "dependencies": {
-    "@feizheng/next-js-core2": "^2.4.1"
+    "jest": "^26.6.3",
+    "prettier": "^2.1.2",
+    "release-it": "^14.2.1",
+    "uglify-js": "3.11.6",
+    "uglify-save-license": "^0.4.1"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
