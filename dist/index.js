@@ -3,7 +3,7 @@
  * description: Covert doc/docx to pdf.
  * homepage: https://github.com/afeiship/next-doc2pdf
  * version: 1.0.0
- * date: 2020-11-22 20:29:19
+ * date: 2020-11-22 20:32:53
  * license: MIT
  */
 
